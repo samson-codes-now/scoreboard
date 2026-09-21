@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="score-holder-wrapper">
+        <h3>HOME</h3>
+        <div class="score-holder">
+          <span class="score-number" id="home-el">0</span>
+        </div>
+        <div class="btn-wrapper">
+          <button class="btn" onclick="hAddOnePoint()">+1</button>
+          <button class="btn" onclick="hAddTwoPoints()">+2</button>
+          <button class="btn" onclick="hAddThreePoints()">+3</button>
+        </div>
+      </div>
+      <div class="score-holder-wrapper">
+        <h3>GUEST</h3>
+        <div class="score-holder">
+          <span class="score-number" id="guest-el">0</span>
+        </div>
+        <div class="btn-wrapper">
+            <button class="btn" onclick="gAddOnePoint()">+1</button>
+            <button class="btn" onclick="gAddTwoPoints()">+2</button>
+            <button class="btn" onclick="gAddThreePoints()">+3</button>
+          </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
